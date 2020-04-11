@@ -1,0 +1,506 @@
+.carlogo{
+  left: 90px;
+  top:5px;
+}
+.project{
+  position: fixed;
+  top: 0px;
+  /* border: 1px solid black; */
+  background-color: white;
+  width: 100%;
+  height: 110px;
+  z-index: 10;
+}
+.project .carlogo{
+  position:fixed;
+  left: 20px;
+}
+.india{
+  color: DimGray;
+font-family: Arial, Helvetica, sans-serif;
+position:fixed;
+left: 90px;
+top:5px;
+font-size: 30px;
+}
+.carrental{
+  color: DimGray;
+font-family: Arial, Helvetica, sans-serif;
+position:fixed;
+left: 45px;
+top:50px;
+font-size: 20px;
+}
+ /* .search{
+  position: relative;
+  border: 1px solid black;
+  width: 150px;
+  height: 30px;
+  left: 1110px;
+  top: 65px;
+  border-top-right-radius:10px;
+  border-bottom-right-radius:10px;
+}
+ .sear{
+  position: relative;
+  left:1110px;
+  top:65px;
+  height: 25px;
+  width: 242px;
+  border: none;
+}  */
+.toplist{
+  position:fixed;
+  left: 310px;
+  top: 73px;
+  /* border: 1px solid black; */
+  width: 57%;
+  height: 30px;
+  z-index: 10;
+}
+.toplist ul{
+  list-style: none;
+}
+.toplist  a{
+  text-decoration: none;
+  color: white;
+}
+.toplist > ul{
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  background: LightSlateGrey;
+  color: white;
+}
+.toplist > ul > li{
+  position:relative;
+  cursor: pointer;
+  font-family:poppins;
+  float:left;
+  font-size: 14px;
+  width:136px ;
+  height: 31px;
+  left: 0px;
+  top:0px;
+  line-height: 30px;
+  text-align: center;
+}
+.About{
+  top: 0px;
+  position: relative;
+  left: 0px;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+.About li{
+  background-color: black;
+  display: none;
+}
+.About li:hover{
+  /* background-color: black; */
+  color: yellow;
+}
+.toplist li:hover {
+  /* display: block; */
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+  /* color: yellow; */
+}
+.toplist a:hover {
+  /* display: block; */
+  /* box-shadow: 0px 0px 10px rgba(0,0,0,0.5); */
+  color: yellow;
+}
+/* .Toptelephone{
+  position:fixed;
+  left: 1110px;
+  top: 50px;
+  width: 200px;
+} */
+.telephone{
+  position:fixed;
+  left: 1250px;
+  top: 60px;
+width: 40px;
+z-index: 10;
+}
+.numbers{
+  position:fixed;
+  left: 1300px;
+  top: 45px;
+  color: Grey;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  /* width: 50px; */
+  z-index: 10;
+}
+/* .leftside{
+  border-right: 1px solid gray;
+  position: absolute;
+  top: 200px;
+  width: 130px;
+  height: 200px;
+} */
+.History{
+  font-family: cursive;
+  font-size: 20px;
+  position: absolute;
+  top:150px;
+  left: 620px;
+}
+.pppp{
+  position: absolute;
+  top:220px;
+  left: 160px;
+}
+.gallery{
+
+  width: 100px;
+  position: absolute;
+  top: 450px;
+  left:620px;
+  color: #222220;
+  font-family: cursive;
+  font-size: 25px;
+  text-align: center;
+  /* background-color: LightSlateGrey; */
+  cursor: pointer;
+}
+.gallery_photos{
+  /* border: 1px solid black; */
+  position: absolute;
+  left: 150px;
+  top: 530px;
+  width: 1060px;
+  height: 430px;
+}
+.Office1{
+  /* border: 1px solid black; */
+  position: relative;
+  /* left: 10px;
+  top: 10px; */
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  box-shadow: 0px 0px 13px rgba(10, 0, 0, 0.5);
+}
+.Office1:hover{
+  position: relative;
+  /* left: 10px;
+  top: 10px; */
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0px 0px 13px rgba(10, 0, 0, 0.5);
+}
+.Office2{
+  /* border: 1px solid black; */
+  position: relative;
+  /* left: 20px;
+  top: 220px; */
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+.Office2:hover{
+  position: relative;
+  /* left: 10px;
+  top: 10px; */
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0px 0px 13px rgba(10, 0, 0, 0.5);
+}
+.Office3{
+  /* border: 1px solid black; */
+  position: relative;
+  /* left: 30px;
+  top: 10px; */
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+.Office3:hover{
+  position: relative;
+  /* left: 10px;
+  top: 10px; */
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0px 0px 13px rgba(10, 0, 0, 0.5);
+}
+.Office4{
+  /* border: 1px solid black; */
+  position: relative;
+  /* left: 30px;
+  top: 220px; */
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+.Office4:hover{
+  position: relative;
+  /* left: 10px;
+  top: 10px; */
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0px 0px 13px rgba(10, 0, 0, 0.5);
+}
+.Office5{
+  /* border: 1px solid black; */
+  position: relative;
+  /* left: 0px;
+  top: 430px; */
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+.Office5:hover{
+  position: relative;
+  /* left: 10px;
+  top: 10px; */
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0px 0px 13px rgba(10, 0, 0, 0.5);
+}
+.Office6{
+  /* border: 1px solid black; */
+  position: relative;
+  /* left: 430px;
+  top: 220px; */
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+.Office6:hover{
+  position: relative;
+  /* left: 10px;
+  top: 10px; */
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0px 0px 13px rgba(10, 0, 0, 0.5);
+}
+.Office7{
+  /* border: 1px solid black; */
+  position: relative;
+  /* left: 640px;
+  top: 10px; */
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+.Office7:hover{
+  position: relative;
+  /* left: 10px;
+  top: 10px; */
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0px 0px 13px rgba(10, 0, 0, 0.5);
+}
+.Office8{
+  /* border: 1px solid black; */
+  position: relative;
+  /* left: 640px;
+  top: 220px; */
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+.Office8:hover{
+  position: relative;
+  /* left: 10px;
+  top: 10px; */
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0px 0px 13px rgba(10, 0, 0, 0.5);
+}
+.Office9{
+  /* border: 1px solid black; */
+  position: relative;
+  /* left: 850px;
+  top: 10px; */
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+.Office9:hover{
+  position: relative;
+  /* left: 10px;
+  top: 10px; */
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0px 0px 13px rgba(10, 0, 0, 0.5);
+}
+.Office10{
+  /* border: 1px solid black; */
+  position: relative;
+  /* left: 850px;
+  top: 220px; */
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+.Office10:hover{
+  position: relative;
+  /* left: 10px;
+  top: 10px; */
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0px 0px 13px rgba(10, 0, 0, 0.5);
+}
+.data_owner{
+  border-left: 1px solid 	#FFD700;
+  position: absolute;
+  top: 200px;
+  left: 1350px;
+  width: 90px;
+  height: 380px;
+}
+.owner_logo{
+  /* border:1px solid black; */
+  position: absolute;
+  top: 0px;
+  left:15px;
+  /* width: 80px; */
+}
+.owner_1{
+  /* border:1px solid black; */
+  position: absolute;
+  top: 120px;
+  left: 20px;
+  width: 60px;
+}
+.owner_1de{
+  /* border:1px solid black; */
+  position: absolute;
+  top: 0px;
+  left:-320px;
+  width: 300px;
+  height: 75px;
+  background-color: rgba(0,0,0, 0.8);
+  display: none;
+}
+.owner_1de1{
+  border:2px solid white;
+  border-radius: 32px;
+  position: absolute;
+  top: 5px;
+  left:10px;
+  width: 60px;
+  height: 60px;
+}
+.owner_1:hover  .owner_1de{
+  display: block;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.owner_2{
+  /* border:1px solid black; */
+  position: absolute;
+  top: 200px;
+  left: 20px;
+  width: 60px;
+}
+.owner_2de{
+  /* border:1px solid black; */
+  position: absolute;
+  top: 0px;
+  left:-320px;
+  width: 300px;
+  height: 75px;
+  background-color: rgba(0,0,0, 0.8);
+  display: none;
+}
+.owner_2de2{
+  border:2px solid white;
+  border-radius: 32px;
+  position: absolute;
+  top: 5px;
+  left:10px;
+  width: 60px;
+  height: 60px;
+}
+.owner_2:hover  .owner_2de{
+  display: block;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.owner_3{
+  /* border:1px solid black; */
+  position: absolute;
+  top: 280px;
+  left: 20px;
+  width: 60px;
+}
+.owner_3de{
+  /* border:1px solid black; */
+  position: absolute;
+  top: 0px;
+  left:-320px;
+  width: 300px;
+  height: 75px;
+  background-color: rgba(0,0,0, 0.8);
+  display: none;
+}
+.owner_3de3{
+  border:2px solid white;
+  border-radius: 32px;
+  position: absolute;
+  top: 5px;
+  left:10px;
+  width: 60px;
+  height: 60px;
+}
+.owner_3:hover  .owner_3de{
+  display: block;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.name1{
+  position: absolute;
+  left: 5px;
+  color: white;
+}
+.name2{
+  position: absolute;
+  left: 90px;
+  color: white;
+}
+.name3{
+  position: absolute;
+  left: 5px;
+  top: 30px;
+  color: white;
+}
+.name4{
+  position: absolute;
+  left: 90px;
+  top: 30px;
+  color: white;
+}
+.name5{
+  position: absolute;
+  left: 5px;
+  top: 60px;
+  color: white;
+}
+.name6{
+  position: absolute;
+  left: 90px;
+  top: 60px;
+  color: white;
+}
+.footer{
+  /* border: 1px solid black; */
+  position: absolute;
+  top:1400px;
+  left: 0px;
+  width: 100%;
+  height: 180px;
+  background-color: #2E2E2A;
+}

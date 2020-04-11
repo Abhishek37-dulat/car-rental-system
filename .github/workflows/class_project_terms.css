@@ -1,0 +1,114 @@
+.carlogo{
+  left: 90px;
+  top:5px;
+}
+.project{
+  top:0px;
+  left: 0px;
+  position: fixed;
+  /* border: 1px solid black; */
+  width: 1510px;
+  height: 100px;
+  background-color: white;
+  z-index: 1;
+}
+.project .carlogo{
+  position:fixed;
+  left: 20px;
+}
+.india{
+  color: DimGray;
+font-family: Arial, Helvetica, sans-serif;
+position:fixed;
+left: 90px;
+top:5px;
+font-size: 30px;
+}
+.carrental{
+  color: DimGray;
+font-family: Arial, Helvetica, sans-serif;
+position:fixed;
+left: 45px;
+top:50px;
+font-size: 20px;
+}
+.toplist{
+  position:fixed;
+  left: 310px;
+  top: 73px;
+  /* border: 1px solid black; */
+  width: 57%;
+  height: 30px;
+}
+.toplist ul{
+  list-style: none;
+}
+.toplist  a{
+  text-decoration: none;
+  color: white;
+}
+.toplist > ul{
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  background: LightSlateGrey;
+  color: white;
+}
+.toplist > ul > li{
+  position:relative;
+  cursor: pointer;
+  font-family:poppins;
+  float:left;
+  font-size: 14px;
+  width:136px ;
+  height: 31px;
+  left: 0px;
+  top:0px;
+  line-height: 30px;
+  text-align: center;
+}
+.toplist li:hover {
+  /* display: block; */
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+  /* color: yellow; */
+}
+.toplist a:hover {
+  /* display: block; */
+  /* box-shadow: 0px 0px 10px rgba(0,0,0,0.5); */
+  color: yellow;
+}
+.telephone{
+  position:fixed;
+  left: 1250px;
+  top: 60px;
+width: 40px;
+}
+.numbers{
+  position:fixed;
+  left: 1300px;
+  top: 45px;
+  color: Grey;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  /* width: 50px; */
+}
+.terms_and_conditions{
+  /* border: 1px solid black; */
+  position: absolute;
+  top:120px;
+  left: 200px;
+  height: 940px;
+}
+.terms li{
+  position: relative;
+  left: 0px;
+}
+.footer{
+  /* border: 1px solid black; */
+  position: absolute;
+  top:1100px;
+  left: 0px;
+  width: 100%;
+  height: 150px;
+  background-color: #2E2E2A;
+}

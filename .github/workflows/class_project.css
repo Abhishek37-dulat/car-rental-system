@@ -1,0 +1,644 @@
+.carlogo{
+  left: 90px;
+  top:5px;
+}
+.project{
+  position: fixed;
+  top: 0px;
+  /* border: 1px solid black; */
+  background-color: white;
+  width: 100%;
+  height: 110px;
+  z-index: 10;
+}
+.project .carlogo{
+  position:fixed;
+  left: 20px;
+}
+.india{
+  color: DimGray;
+font-family: Arial, Helvetica, sans-serif;
+position:fixed;
+left: 90px;
+top:5px;
+font-size: 30px;
+}
+.carrental{
+  color: DimGray;
+font-family: Arial, Helvetica, sans-serif;
+position:fixed;
+left: 45px;
+top:50px;
+font-size: 20px;
+}
+ /* .search{
+  position: relative;
+  border: 1px solid black;
+  width: 150px;
+  height: 30px;
+  left: 1110px;
+  top: 65px;
+  border-top-right-radius:10px;
+  border-bottom-right-radius:10px;
+}
+ .sear{
+  position: relative;
+  left:1110px;
+  top:65px;
+  height: 25px;
+  width: 242px;
+  border: none;
+}  */
+.toplist{
+  position:fixed;
+  left: 310px;
+  top: 73px;
+  /* border: 1px solid black; */
+  width: 57%;
+  height: 30px;
+  z-index: 10;
+}
+.toplist ul{
+  list-style: none;
+}
+.toplist  a{
+  text-decoration: none;
+  color: white;
+}
+.toplist > ul{
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  background: LightSlateGrey;
+  color: white;
+}
+.toplist > ul > li{
+  position:relative;
+  cursor: pointer;
+  font-family:poppins;
+  float:left;
+  font-size: 14px;
+  width:136px ;
+  height: 31px;
+  left: 0px;
+  top:0px;
+  line-height: 30px;
+  text-align: center;
+}
+.About{
+  top: 0px;
+  position: relative;
+  left: 0px;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+.About li{
+  background-color: black;
+  display: none;
+}
+.About li:hover{
+  /* background-color: black; */
+  color: yellow;
+}
+.toplist li:hover {
+  /* display: block; */
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+  /* color: yellow; */
+}
+.toplist a:hover {
+  /* display: block; */
+  /* box-shadow: 0px 0px 10px rgba(0,0,0,0.5); */
+  color: yellow;
+}
+/* .Toptelephone{
+  position:fixed;
+  left: 1110px;
+  top: 50px;
+  width: 200px;
+} */
+.contact_love1{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 10px;
+  left: 700px;
+  width: 134px;
+  height: 30px;
+  background: LightSlateGrey;
+  color: white;
+  /* display: none; */
+}
+.contact_love1:hover{
+  background:white;
+  color:LightSlateGrey;
+}
+.contact_love{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 0px;
+  left: 700px;
+  width: 234px;
+  height: 100px;
+  background:white;
+  color:LightSlateGrey;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+  display: none;
+}
+.video_call{
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  width: 24px;
+}
+.voice_call{
+  position: absolute;
+  top: 2px;
+  left: 10px;
+  width: 24px;
+}
+.email_me{
+  position: absolute;
+  top: 2px;
+  left: 10px;
+  width: 24px;
+}
+.vv_me{
+  position: absolute;
+  margin-top: 6px;
+  left: 100px;
+}
+.vv_me1{
+  position: absolute;
+  margin-top: 6px;
+  left: 100px;
+}
+.vv_me2{
+  position: absolute;
+  margin-top: 6px;
+  left: 100px;
+}
+.m_s{
+  /* border:1px solid black; */
+  position:absolute;
+  margin-top:0px;
+  width:234px;
+  height:30px;
+}
+.m_s:hover{
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+}
+.m_s1{
+  /* border:1px solid black; */
+  position:absolute;
+  top:32px;
+  width:234px;
+  height:30px;
+}
+.m_s1:hover{
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+}
+.m_s2{
+  /* border:1px solid black; */
+  position:absolute;
+  top:64px;
+  width:234px;
+  height:34px;
+}
+.m_s2:hover{
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+}
+.telephone{
+  position:fixed;
+  left: 1250px;
+  top: 60px;
+width: 40px;
+z-index: 10;
+}
+.numbers{
+  position:fixed;
+  left: 1300px;
+  top: 45px;
+  color: Grey;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  /* width: 50px; */
+  z-index: 10;
+}
+
+.jeep{
+  /* border: 1px solid black; */
+  display: flex;
+  position: relative;
+  top: 100px;
+  left: 0px;
+  width: 1250px;
+  height: 690px;
+  z-index: -1;
+}
+/* .jeep{
+  width: 100%;
+  height: 700px;
+} */
+/* .toplogin{
+  border: 1px solid black;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 700px;
+  height: 490px;
+}
+
+.login{
+  position: absolute;
+  top: 0px;
+  width: 600px;
+  height: 390px;
+} */
+/* .local-jeep{
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  width: 600px;
+  height: 390px;
+} */
+.yjeep{
+  position: absolute;
+  width: 600px;
+  height: 390px;
+  z-index: -1;
+  top: 130px;
+  /* margin: 10px;
+  transition: 2s;
+  animation: infinite linear;
+  transform: rotate(30deg); */
+}
+.log{
+  /* border: 1px solid black; */
+  /* margin: 5px; */
+  position: relative;
+  top: 160px;
+  left: 900px;
+  width: 550px;
+  height: 450px;
+  background: rgba(119,136,153,0.7);
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.7);
+  /* z-index: -1; */
+}
+ .book {
+  top:8px;
+  color: white;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  left: 25px;
+}
+.book1{
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  left: 25px;
+  top: 20px;
+}
+.b1{
+  color: Grey;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 70px;
+  left: 25px;
+  width: 232px;
+  height: 20px;
+}
+.book2{
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  left: 285px;
+  top: 20px;
+}
+.b2{
+  color: Grey;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 70px;
+  left: 285px;
+  width: 232px;
+  height: 20px;
+}
+.book3{
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  left: 25px;
+  top: 100px;
+}
+.d1{
+  color: Grey;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 150px;
+  left: 25px;
+  width: 50px;
+}
+.d2{
+  color: Grey;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 150px;
+  left: 75px;
+  width: 50px;
+}
+.d3{
+  color: Grey;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 150px;
+  left: 125px;
+  width: 50px;
+}
+.d4{
+  color: Grey;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 150px;
+  left: 177px;
+  width: 40px;
+}
+.d5{
+  color: Grey;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 150px;
+  left: 217px;
+  width: 45px;
+}
+
+
+.book4{
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  left: 285px;
+  top: 100px;
+}
+.d6{
+  color: Grey;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 150px;
+  left: 285px;
+  width: 50px;
+}
+.d7{
+  color: Grey;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 150px;
+  left: 335px;
+  width: 50px;
+}
+.d8{
+  color: Grey;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 150px;
+  left: 385px;
+  width: 50px;
+}
+.d9{
+  color: Grey;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 150px;
+  left: 437px;
+  width: 40px;
+}
+.d10{
+  color: Grey;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 150px;
+  left: 477px;
+  width: 45px;
+}
+.book5{
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  left: 25px;
+  top: 180px;
+}
+.b5{
+  color: Grey;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  left: 25px;
+  top: 230px;
+  width: 232px;
+  height: 23px;
+}
+.book6{
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  left: 285px;
+  top: 180px;
+}
+.b6{
+  color: Grey;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  left: 285px;
+  top: 230px;
+  width: 233px;
+  height: 21px;
+}
+.book7{
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  left: 25px;
+  top: 260px;
+}
+.b7{
+  color: Grey;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  left: 25px;
+  top: 310px;
+  width: 232px;
+  height: 20px;
+}
+.book8{
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  left: 285px;
+  top: 260px;
+}
+.b8{
+  color: Grey;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  left: 285px;
+  top: 310px;
+  width: 232px;
+  height: 20px;
+}
+
+.search-for-car{
+  /* border: 1px solid #42423D; */
+  position: absolute;
+  top:380px;
+  left: 205px;
+  width: 200px;
+  height: 30px;
+  background-color:  rgba(119,136,153,0.4);
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.4);
+  cursor: pointer;
+}
+.search-for-car img{
+  position: absolute;
+  left: 160px;
+  top: 4px;
+  cursor: pointer;
+}
+.search-for-car P{
+  position: absolute;
+  left: 16px;
+  top: 4px;
+  margin: 0px;
+  color: #42423D;
+  cursor: pointer;
+  cursor: pointer;
+}
+
+.thought{
+  position: absolute;
+  top: 590px;
+  font-size: 30px;
+}
+.thought img{
+  position: absolute;
+  margin: 5px;
+  transition: 3s;
+  animation: infinite linear;
+  transform: rotate(360deg);
+}
+/* .cars1{
+  border:1px solid black;
+  position: absolute;
+  top: 500px;
+  width: 300px;
+  height: 200px;
+}
+.cars1 img{
+  border:1px solid black;
+  position: absolute;
+  top: 0px;
+  width: 300px;
+  height: 200px;
+}
+.cars2{
+  border:1px solid black;
+  position: absolute;
+  top: 500px;
+  left: 400px;
+  width: 300px;
+  height: 200px;
+}
+.cars2 img{
+  border:1px solid black;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 200px;
+}
+
+.cars3{
+  border:1px solid black;
+  position: absolute;
+  top: 800px;
+  width: 300px;
+  height: 200px;
+}
+.cars3 img{
+  border:1px solid black;
+  position: absolute;
+  top: 0px;
+  width: 300px;
+  height: 200px;
+}
+.cars4{
+  border:1px solid black;
+  position: absolute;
+  top: 800px;
+  left: 400px;
+  width: 300px;
+  height: 200px;
+}
+.cars4 img{
+  border:1px solid black;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 200px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+  /* border: 1px solid black; */
+  position: absolute;
+  top:800px;
+  left: 0px;
+  width: 100%;
+  height: 150px;
+  background-color: #2E2E2A;
+}
